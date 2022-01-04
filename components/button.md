@@ -1,6 +1,6 @@
 # Button
 
-## When to Use
+## When to use
 
 Use a button for actions that will change data or manipulate how it is displayed, change a state, or trigger an action. 
 
