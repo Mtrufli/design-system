@@ -14,4 +14,4 @@ This design system provides a standard way for designers and developers at the U
   - When not to use
   - Accessibility and Usability
   - HTML and CSS
-- Any code added to a Component page should be embedded as a Pen from CodePen. 
+- Any code added to a Component page should be embedded as a Pen from the team's CodePen account. 
