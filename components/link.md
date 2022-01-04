@@ -6,7 +6,7 @@
 - To provide an anchor link to content on the same page.
 - To link to a downloadable document. 
 
-## When not to Use
+## When Not to Use
 Links should not be used for actions that will change data or manipulate how it is displayed, change a state, or trigger an action. [Buttons](https://kristinaengland.github.io/design-system/components/button) should be used instead. 
 
 ## Accessibility and Usability Best Practices
