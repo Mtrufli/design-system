@@ -1,6 +1,9 @@
 # Link
 
 ## When to Use
+- To navigate to another page on the current site or to content on another site.
+- To link to email addresses and phone numbers.
+- To provide an anchor link to content on the same page.
 
 ## When not to Use
 Links should not be used for actions that will change data or manipulate how it is displayed, change a state, or trigger an action. [Buttons](https://kristinaengland.github.io/design-system/components/button) should be used instead. 
