@@ -8,6 +8,11 @@ Use a button for actions that will change data or manipulate how it is displayed
 
 Buttons should never be used for navigational actions.
 
+## Accessibility and Usability
+- The Button tag should be used unless you are using an icon for the button. 
+- The Button label must match the visible button name to work with voice recognition. If the button is an icon, you should label the button clearly behind the scenes. For example, if the button is an X for close, the button label should be Close. 
+- Buttons should have focus indicators both on hover and on keyboard focus.
+
 ## HTML and CSS
 
 ### Primary and Secondary Buttons
