@@ -4,9 +4,11 @@ This design system provides a standard way for designers and developers at the U
 
 ## Instructions for developing new pages
 
-Pages should be set up in the following structure:
-
+### General Structure
+- When creating a new file, the name of the file should reflect the name of the Git Hub page with an .md extension at the end. For example, button.md. 
 - The name of the page should be added as a Heading 1 (which is # in GitHub Markup).
+
+### Component Pages
 - All Component pages should have the following sections, which should be Heading 2s (## in GitHub Markup):
   - When to use
   - When not to use
