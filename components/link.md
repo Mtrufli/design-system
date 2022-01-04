@@ -9,7 +9,7 @@
 ## When not to use
 Links should not be used for actions that will change data or manipulate how it is displayed, change a state, or trigger an action. [Buttons](https://kristinaengland.github.io/design-system/components/button) should be used instead. 
 
-## Accessibility and Usability Best Practices
+## Accessibility and Usability
 - Links should be descriptive, indicating where the user will be sent. Never use click here, read more, or learn more.
 - Links should always be underlined.
 - Links should have focus indicators both on hover and on keyboard focus. 
