@@ -1,22 +1,25 @@
 # Card Component
 
-This is the code for a card component that includes an image, a linked title, and a section of text.  The full card is clickable to activate the link, but the text following the linked title is also still accessible to screen readers.  Many card components make the entire card a linked object but often that results in the screen reader only reading the link and not reading the content of the card.</p>
-
-Our organization wishes to use a card display for just text-based content as well.  It is quite easy to convert the Card with Image by simply removing the "card-image" div.</p>
+A card is generally a block element that contains common elements such as an image, heading, text, metadata, etc. Cards are a great way to display information that has a pleasing layout that also works well on mobile devices. General practice is to make the entire card clickable.  However, that often creates a less-than great experience for some users of assistive tech as it is variable what content will be read.  We prefer to keep each element separate and use the title of the card as the link.  Doing it this way also allows people using screen readers to browse the cards by title or by link.
 
 ## When to Use
 
-some text here
+Use cards to create a graphically pleasing teaser of content. 
 
 ## When not to use
 
-some text here
+Do not use cards for a long list of content as a list is more easily scanned and will provide users of assistive technology the expectation of how many items are in the list they are about to browse through.
+
+Do not use cards when each item contains a number of variables that need to be easily scanned and could also provide a method for sorting or filtering the data set.
 
 ## Accessibility and Usability
 
+- Focus Indicator is the same for a mouse hover or keyboard focus.
 - The link is the title of the card. 
-  - You should make sure to use the proper heading level according to the cards location in your page content.  
-- Image should contain alt text if information is conveyed by the image.  It can be changed to use a blank alt attribute in order to skip the image in screen readers.
+  - You should make sure to use the proper heading level according to the cards location in your page content.
+  - CSS for the Heading/link should follow already established link behavior for the rest of the site (i.e. color change on hover)  
+- Image should contain alt text if there is information/intent in the image that is not conveyed by the image itself.  Use a blank alt attribute in order to skip the image in screen readers.
+- Text in the card is read by screen readers and can be selected with a mouse.  
 
 ## HTML and CSS
 
