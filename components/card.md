@@ -17,9 +17,11 @@ Do not use cards when each item contains a number of variables that need to be e
 - Focus Indicator is the same for a mouse hover or keyboard focus.
 - The link is the title of the card. 
   - You should make sure to use the proper heading level according to the cards location in your page content.
-  - CSS for the Heading/link should follow already established link behavior for the rest of the site (i.e. color change on hover)  
+  - CSS for the Heading/link should follow already established link behavior for the rest of the site (i.e. color change on hover) 
+  - When the link is the title of the card (usually the title of the page or article you are linking to) there is no need to add "read more" text on each card.  "Read more" will be the same text in each card and would make it impossible for voice recognition users to target the the correct "read more" link. 
 - Image should contain alt text if there is information/intent in the image that is not conveyed by the image itself.  Use a blank alt attribute in order to skip the image in screen readers.
-- Text in the card is read by screen readers and can be selected with a mouse.  
+- Text in the card is read by screen readers and can be selected with a mouse.
+- Text in the card should be short and easily scannable.  
 
 ## HTML and CSS
 
