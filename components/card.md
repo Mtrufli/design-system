@@ -1,4 +1,4 @@
-#Card Component
+<h1>Card Component</h1>
 
 This is the code for a card component that includes an image, a linked title, and a section of text.  The full card is clickable to activate the link, but the text following the linked title is also still accessible to screen readers.  Many card components make the entire card a linked object but often that results in the screen reader only reading the link and not reading the content of the card.</p>
 
