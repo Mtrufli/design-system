@@ -14,7 +14,9 @@ some text here
 
 ## Accessibility and Usability
 
-some text here
+- The link is the title of the card. 
+-- You should make sure to use the proper heading level according to the cards location in your page content.  
+- Image should contain alt text if information is conveyed by the image.  It can be changed to use a blank alt attribute in order to skip the image in screen readers.
 
 ## HTML and CSS
 
