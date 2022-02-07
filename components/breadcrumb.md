@@ -1,4 +1,4 @@
-# Breadcrumbs
+# Breadcrumb Navigation
 Breadcrumbs are a particular type of navigation that helps a visitor understand their current location in the website's hierarchy.
 
 
